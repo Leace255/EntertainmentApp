@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Outfit';
+        src: url(assets/fonts/Outfit-VariableFont_wght.woff2) format('woff2');
+    }
+
+    html {
+        font-family: Outfit, sans-serif;
+    }
+
+    body {
+        @apply
+        bg-primary
+        text-gray-300
+
+    }
+}
+
